@@ -1,24 +1,22 @@
 🚌 KMT Mitra
-KMT Mitra is a Flutter-based mobile application designed to make Kolhapur KMT bus schedules easily accessible to passengers.
-The app provides a simple and convenient way for users to check KMT bus routes and schedules without having to depend on physical timetable boards or manually search for bus information.
+KMT Mitra is a Flutter-based mobile application for displaying Kolhapur KMT bus schedules, routes, and timings in a simple and user-friendly interface.
+📌 About
+KMT Mitra aims to make Kolhapur KMT bus schedule information easily accessible to daily commuters, students, employees, and visitors.
+The application provides users with a convenient digital way to check bus timings and route information.
 
-📱 Features
-🚌 View Kolhapur KMT bus schedules
-🗺️ Browse available bus routes
+✨ Features
+🚌 View KMT bus schedules
+🗺️ View available bus routes
 ⏰ Check bus timings
-🔍 Easily find required routes and schedules
-📱 Clean and user-friendly Flutter interface
-⚡ Fast and lightweight application
-📍 Designed specifically for Kolhapur city bus users
-🎯 Purpose
-The main goal of KMT Mitra is to make public transportation information more accessible to the people of Kolhapur.
-Instead of searching through traditional timetables, users can use the application to quickly find the bus information they need.
-
-🛠️ Tech Stack
-Framework: Flutter
-Language: Dart
-Platform: Android / iOS
-IDE: Android Studio / Visual Studio Code
+🔍 Search for routes and buses
+📱 Simple and user-friendly interface
+⚡ Fast and lightweight Flutter application
+🌐 Designed for Kolhapur KMT commuters
+🛠️ Technologies Used
+Flutter
+Dart
+Android
+iOS
 📂 Project Structure
 kmt_mitra/
 │
@@ -27,7 +25,6 @@ kmt_mitra/
 ├── lib/
 │   ├── main.dart
 │   └── ...
-│
 ├── test/
 ├── web/
 ├── assets/
@@ -39,14 +36,63 @@ Prerequisites
 Make sure you have the following installed:
 Flutter SDK
 Dart SDK
-Android Studio or Visual Studio Code
-Android Emulator / Physical Android Device
-Installation
-Clone the repository:
+Android Studio or VS Code
+Android Emulator or Physical Device
+Clone the Repository
 git clone <YOUR_REPOSITORY_URL>
 
-Navigate to the project directory:
+Navigate to the Project
 cd kmt_mitra
+
+Install Dependencies
+flutter pub get
+
+Run the Application
+flutter run
+
+📱 Screenshots
+Add application screenshots here to showcase the user interface.
+screenshots/
+├── home.png
+├── routes.png
+└── schedule.png
+
+🚌 KMT
+KMT (Kolhapur Municipal Transport) provides bus transportation services in Kolhapur.
+KMT Mitra is designed to provide KMT bus schedule and route information in a convenient digital format.
+
+🔮 Future Scope
+📍 Live bus tracking
+🗺️ Interactive route maps
+🔔 Bus arrival notifications
+❤️ Favorite routes
+🔎 Advanced route search
+📶 Offline schedule support
+🚌 Bus stop information
+🌐 Marathi and English language support
+☁️ Online schedule updates
+🤝 Contributing
+Contributions are welcome.
+Steps to Contribute
+Fork the repository
+Create a new branch
+Make your changes
+Commit your changes
+Push your branch
+Create a Pull Request
+git checkout -b feature/new-feature
+git add .
+git commit -m "Add new feature"
+git push origin feature/new-feature
+
+📄 License
+This project is currently developed for educational and development purposes.
+Add an appropriate license to the project if required.
+
+👨‍💻 Developer
+Developed with ❤️ using Flutter & Dart.
+🚌 KMT Mitra
+Your Digital Companion for Kolhapur KMT Bus Schedulescd kmt_mitra
 
 Install the required dependencies:
 flutter pub get
