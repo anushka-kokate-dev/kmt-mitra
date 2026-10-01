@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221076406846",
+    "project_id": "kmt-mitra-app",
+    "storage_bucket": "kmt-mitra-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221076406846:android:770907cd2d08536702c76f",
+        "android_client_info": {
+          "package_name": "com.example.kmt_mitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXS1_giqk5APflCVyNGkXvJLG_vpMwnkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

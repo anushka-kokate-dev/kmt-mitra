@@ -1,0 +1,38 @@
+name: kmt_mitra
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.0.0
+  dropdown_button2: ^1.9.0
+  google_mobile_ads: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.jpeg"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/icon.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bus.jpeg
+    - assets/images/icon.jpeg
